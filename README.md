@@ -67,3 +67,8 @@ Only use a voice reference from someone who has agreed to its use. Do not commit
 ## ⚠️ Disclaimer 
 
 This project is not affiliated with or endorsed by HoYoverse. Genshin Impact and its characters are the property of HoYoverse.
+
+## Third-party components
+
+- **Gemma 3** (downloaded through Ollama) is subject to Google's Gemma Terms of Use. Check the terms before using or redistributing the model.
+- **Chatterbox, Kokoro, SpeechRecognition, PyAudio, and the other packages in `requirements.txt`** are separate projects with their own licenses. Installing them doesn't change this project's MIT license.
