@@ -1,8 +1,6 @@
 import os
 import warnings
 
-#from dotenv import load_dotenv
-
 # Silence noisy library messages. This file is imported first, so these run before Kokoro loads.
 os.environ["HF_HUB_VERBOSITY"] = "error"
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -14,7 +12,6 @@ ASSETS_DIR = os.path.join(BASE_DIR, "assets")
 PERSONALITY_DIR = os.path.join(BASE_DIR, "personality")
 
 os.makedirs(DATA_DIR, exist_ok=True)
-#load_dotenv(os.path.join(BASE_DIR, ".env"))
 
 # Files
 MEMORY_FILE = os.path.join(DATA_DIR, "memory.json")
