@@ -1,0 +1,14 @@
+# Environment and secrets
+.venv/
+.env
+.env.*
+
+# Generated files (memory, reply audio)
+data/
+*.wav
+*.mp3
+*.ogg
+
+# Python cache
+__pycache__/
+*.pyc
