@@ -9,7 +9,7 @@ from config import GOODBYE_WORDS
 def main():
     companion = Companion()
     speaker = Speaker()
-    print("AI Companion is listening. Say 'goodbye' to end, or press Ctrl+C.")
+    print("Kira is listening. Say 'goodbye' to end, or press Ctrl+C.")
 
     try:
         while True:
@@ -22,12 +22,12 @@ def main():
             if user_text.lower().strip(" .!?") in GOODBYE_WORDS:
                 farewell = companion.farewell(user_text)
                 print("Emotion:", companion.last_emotion)
-                print("AI Companion:", farewell)
+                print("Kira:", farewell)
                 speaker.speak(farewell)
                 break
 
             reply = companion.reply(user_text)
-            print("Ganyu response:", reply)
+            print("Kira response:", reply)
             print("Emotion:", companion.last_emotion)
             speaker.speak(reply)
     except KeyboardInterrupt:

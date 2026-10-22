@@ -1,8 +1,9 @@
-# 🤖 AI Companion 
+# 🤖 Project Kira
 
 A voice-based AI companion that listens through your microphone, replies in character, and speaks the reply aloud.
 
-This is a personal, non-commercial fan project. The character is inspired by a Genshin Impact character, and the character and its name belong to their respective owners.
+This is a personal, non-commercial fan project. The character KIRA is an acronym that stands for
+Kawaii Intelligent Responsive Assistant.
 
 ## ✨ Features 
 
@@ -64,10 +65,6 @@ Press Enter to start talking, and press Enter again when you finish. Say "goodby
 
 Only use a voice reference from someone who has agreed to its use. Do not commit recordings of other people's voices to the repository.
 
-## ⚠️ Disclaimer 
-
-This project is not affiliated with or endorsed by HoYoverse. Genshin Impact and its characters are the property of HoYoverse.
-
 ## 🔗 Third-party components and content
 
 - **Gemma 3** (downloaded through Ollama) is subject to Google's Gemma Terms of Use, not an open-source license. Check the terms before using or redistributing the model.
@@ -75,5 +72,4 @@ This project is not affiliated with or endorsed by HoYoverse. Genshin Impact and
 - **Ollama** is a separate project with its own license.
 - **Python packages** listed in `requirements.txt`, such as SpeechRecognition, PyAudio, openai, numpy, soundfile, and python-dotenv, are separate projects with their own licenses. Installing them doesn't change this project's MIT license.
 - **Speech recognition** uses Google's web speech service through the SpeechRecognition library. Its terms are set by Google, and the service may change or stop working.
-- **Characters and game content:** The character Ganyu and the Genshin Impact name belong to HoYoverse. This project's MIT license doesn't cover them.
 - **Voice reference clips:** This project doesn't include any voice recordings. A reference clip you add must come from someone who has agreed to its use, and the MIT license doesn't cover it.
