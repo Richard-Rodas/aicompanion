@@ -21,12 +21,14 @@ def main():
             print("What I said:", user_text)
             if user_text.lower().strip(" .!?") in GOODBYE_WORDS:
                 farewell = companion.farewell(user_text)
+                print("Emotion:", companion.last_emotion)
                 print("AI Companion:", farewell)
                 speaker.speak(farewell)
                 break
 
             reply = companion.reply(user_text)
-            print("AI Companion:", reply)
+            print("Ganyu response:", reply)
+            print("Emotion:", companion.last_emotion)
             speaker.speak(reply)
     except KeyboardInterrupt:
         print("\nSee you later!")

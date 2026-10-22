@@ -37,5 +37,8 @@ CHATTERBOX_EXAGGERATION = 0.6   # expressiveness: higher = more emotion
 CHATTERBOX_CFG_WEIGHT = 0.5     # pacing: lower = slower, more deliberate
 VOICE_REFERENCE = os.path.join(ASSETS_DIR, "voice_reference.wav")  # the cloned voice
 
+# Emotions the model may tag each reply with. Anything else falls back to "neutral".
+EMOTIONS = ("happy", "shy", "worried", "teasing", "neutral")
+
 # Words that end the conversation
 GOODBYE_WORDS = ("goodbye", "bye", "exit", "quit", "stop", "end", "see you", "later", "farewell")
