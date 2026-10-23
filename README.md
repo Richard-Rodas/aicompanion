@@ -3,7 +3,7 @@
 A voice-based AI companion that listens through your microphone, replies in character, and speaks the reply aloud.
 
 This is a personal, non-commercial fan project. The character KIRA is an acronym that stands for
-Kawaii Intelligent Responsive Assistant.
+"**K**awaii **I**ntelligent **R**esponsive **A**ssistant".
 
 ## ✨ Features 
 
