@@ -31,6 +31,7 @@ def record_until_enter():
     return b"".join(frames)
 
 
+# This function is called from main.py to get the user's speech input and convert it to text
 def speech_to_text():
     input("\nPress Enter to start talking (Ctrl+C to quit)... ")
     print("Recording... press Enter when you're done.")
